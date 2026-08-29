@@ -48,7 +48,7 @@ export const BRAND_DATA = {
   phone: "+62 831-1946-5702",
   operatingHours: "09:00 AM - 04:00 PM",
   operatingDays: "Monday - Sunday",
-  logoUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuByn2H7k5Rn1fGxVpOW6Rt-nihLSd_ESsnZx_-CsaN6YECrO0vCzJcL-VqDYZk19fOY6ApS1ekM0nRnivgC78eTtKMP_ZBJ_i6IfQd2y7x2aZ5oNakKHNCJ2rntOwlXBsaCJ9wPUDhELLuzqW2YdbvZrFSFgKr6ZY2ePNOBcQxp52rN42Vmu1t_sG1W-YW_E1-ok3I6Bg2OW1M3qYS2oYDOZzkTn1KWkJgF4Pk5pBLLlGCYn19lH_4erg",
+  logoUrl: "/images/logo.png",
 };
 
 export const PRODUCTS: Product[] = [
