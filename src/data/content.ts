@@ -36,7 +36,7 @@ export interface GalleryItem {
 }
 
 export const BRAND_DATA = {
-  name: "Sweetfy",
+  name: "Sweetify",
   tagline: "Manisnya Momen, Segarnya Hari",
   subtagline: "Es Kulkul dan Es Teh Sweetfy, teman manis dan segar untuk menemani setiap momen kamu.",
   whatsappNumber: "6283119465702",

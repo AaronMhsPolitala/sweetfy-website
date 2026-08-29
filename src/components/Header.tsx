@@ -41,11 +41,10 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled
+      className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled
           ? "bg-surface/90 backdrop-blur-md shadow-[0_1px_12px_rgba(0,0,0,0.06)]"
           : "bg-surface/70 backdrop-blur-sm"
-      }`}
+        }`}
     >
       <div className="h-20 max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop flex items-center justify-between gap-gutter">
         {/* Logo & Brand */}
@@ -56,7 +55,7 @@ export default function Header() {
             src={BRAND_DATA.logoUrl}
           />
           <span className="font-display font-bold text-2xl text-primary tracking-tight">
-            Sweetfy
+            {BRAND_DATA.name}
           </span>
         </a>
 
@@ -69,11 +68,10 @@ export default function Header() {
               <a
                 key={link.href}
                 href={link.href}
-                className={`text-sm font-medium transition-colors ${
-                  isActive
+                className={`text-sm font-medium transition-colors ${isActive
                     ? "text-primary font-semibold border-b-2 border-primary pb-1"
                     : "text-on-surface-variant hover:text-primary"
-                }`}
+                  }`}
               >
                 {link.label}
               </a>
