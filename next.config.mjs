@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   reactStrictMode: true,
-  outputFileTracing: false,
   images: {
     unoptimized: true,
     remotePatterns: [
