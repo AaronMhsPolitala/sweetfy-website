@@ -43,7 +43,7 @@ export const BRAND_DATA = {
   whatsappUrl: "https://wa.me/6283119465702",
   locationName: "Sweetfy Base",
   locationAddress: "Jl. Ahmad Yani Km. 06, Pelaihari, Kabupaten Tanah Laut, Kalimantan Selatan",
-  googleMapsUrl: "https://maps.google.com/?q=Jl.+Ahmad+Yani+Km.+06,+Pelaihari",
+  googleMapsUrl: "https://maps.app.goo.gl/CMNBQCSodQUNQahP6",
   email: "hello@sweetfy.com",
   phone: "+62 831-1946-5702",
   operatingHours: "09:00 AM - 04:00 PM",
