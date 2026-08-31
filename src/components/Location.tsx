@@ -2,7 +2,7 @@ import { BRAND_DATA } from "@/data/content";
 
 export default function Location() {
   return (
-    <section id="contact" className="py-section-gap px-margin-mobile lg:px-margin-desktop bg-surface">
+    <section id="location" className="py-section-gap px-margin-mobile lg:px-margin-desktop bg-surface">
       <div className="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Contact & Location Details */}
         <div className="flex flex-col gap-6">

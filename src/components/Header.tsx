@@ -8,9 +8,7 @@ const NAV_LINKS = [
   { label: "Tentang Kami", href: "#about" },
   { label: "Produk", href: "#products" },
   { label: "Keunggulan", href: "#why-sweetfy" },
-  { label: "Galeri", href: "#gallery" },
-  { label: "FAQ", href: "#faq" },
-  { label: "Kontak", href: "#contact" },
+  { label: "Form Pesanan", href: "#instant-order" },
 ];
 
 export default function Header() {

@@ -3,11 +3,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Sweetfy - Pasti Ketagihan Dalam 1 Gigitan",
-  description: "Es Kulkul dan Es Teh Sweetfy, teman manis dan segar untuk menemani setiap momen kamu. Brand makanan dan minuman favorit mahasiswa.",
-  keywords: ["Sweetfy", "Es Kulkul", "Es Teh", "Es Teh Lychee", "Camilan Mahasiswa", "Bazar Kampus", "Pelaihari"],
+  description: "Es Kulkul, Jus Buah, dan Es Teh Sweetfy, teman manis dan segar untuk menemani setiap momen kamu. Brand makanan dan minuman favorit mahasiswa.",
+  keywords: ["Sweetfy", "Es Kulkul", "Jus Buah", "Es Teh", "Camilan Mahasiswa", "Bazar Kampus", "Pelaihari"],
   openGraph: {
     title: "Sweetfy - Pasti Ketagihan Dalam 1 Gigitan",
-    description: "Es Kulkul dan Es Teh Sweetfy, teman manis dan segar untuk menemani setiap momen kamu.",
+    description: "Es Kulkul, Jus Buah, dan Es Teh Sweetfy, teman manis dan segar untuk menemani setiap momen kamu.",
     url: "https://sweetfy.netlify.app",
     siteName: "Sweetfy",
     locale: "id_ID",

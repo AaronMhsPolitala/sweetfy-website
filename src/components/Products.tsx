@@ -12,10 +12,12 @@ export default function Products() {
       : PRODUCTS.filter((p) => p.category === selectedCategory);
 
   const handleOrder = (product: Product) => {
-    const text = encodeURIComponent(
-      `Halo Sweetfy! Saya ingin memesan ${product.name} (${product.price}). Apakah ready?`
-    );
-    window.open(`https://wa.me/${BRAND_DATA.whatsappNumber}?text=${text}`, "_blank");
+    const event = new CustomEvent("selectProductOrder", { detail: product.id });
+    window.dispatchEvent(event);
+    const formElement = document.getElementById("instant-order");
+    if (formElement) {
+      formElement.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   };
 
   return (
@@ -34,7 +36,7 @@ export default function Products() {
 
           {/* Category Filter Buttons */}
           <div className="flex items-center gap-2 bg-surface p-1.5 rounded-full border border-outline-variant/30 shadow-sm">
-            {["Semua", "Es Kulkul", "Es Teh"].map((cat) => (
+            {["Semua", "Es Kulkul", "Es Teh", "Jus Buah"].map((cat) => (
               <button
                 key={cat}
                 onClick={() => setSelectedCategory(cat)}

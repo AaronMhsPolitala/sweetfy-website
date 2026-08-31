@@ -44,8 +44,7 @@ export default function Footer() {
               <a href="#home" className="text-sm text-on-surface-variant hover:text-primary transition-colors">Beranda</a>
               <a href="#about" className="text-sm text-on-surface-variant hover:text-primary transition-colors">Tentang Kami</a>
               <a href="#products" className="text-sm text-on-surface-variant hover:text-primary transition-colors">Menu Produk</a>
-              <a href="#gallery" className="text-sm text-on-surface-variant hover:text-primary transition-colors">Galeri</a>
-              <a href="#faq" className="text-sm text-on-surface-variant hover:text-primary transition-colors">FAQ</a>
+              <a href="#instant-order" className="text-sm text-on-surface-variant hover:text-primary transition-colors">Form Pesanan</a>
             </nav>
           </div>
 
