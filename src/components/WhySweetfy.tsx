@@ -6,7 +6,7 @@ export default function WhySweetfy() {
       <div className="max-w-container-max mx-auto">
         <div className="text-center mb-16 max-w-2xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold font-display text-on-surface mb-4">
-            Why Choose Sweetfy?
+            Mengapa Memilih Sweetfy?
           </h2>
           <p className="text-lg text-on-surface-variant leading-relaxed">
             Lebih dari sekadar jajanan, ini alasan kenapa kamu harus coba.

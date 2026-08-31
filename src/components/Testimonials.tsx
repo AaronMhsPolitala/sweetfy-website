@@ -5,11 +5,11 @@ export default function Testimonials() {
     <section id="testimonials" className="py-section-gap px-margin-mobile lg:px-margin-desktop bg-surface relative">
       <div className="max-w-container-max mx-auto max-w-4xl text-center">
         <span className="text-xs font-bold text-secondary bg-secondary-container/30 px-4 py-2 rounded-full inline-block mb-6 uppercase tracking-wider">
-          STUDENT LED
+          DARI MAHASISWA
         </span>
 
         <h2 className="text-3xl sm:text-4xl font-bold font-display text-on-surface mb-6">
-          From Campus, For Everyone.
+          Dari Kampus, Untuk Semua.
         </h2>
 
         <p className="text-lg text-on-surface-variant mb-12 max-w-2xl mx-auto leading-relaxed">

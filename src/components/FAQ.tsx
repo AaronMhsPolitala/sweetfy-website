@@ -19,7 +19,7 @@ export default function FAQ() {
             FAQ
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold font-display text-on-surface mb-4">
-            Got Questions?
+            Ada Pertanyaan?
           </h2>
           <p className="text-lg text-on-surface-variant leading-relaxed">
             Hal yang sering ditanyakan teman-teman mengenai produk dan pemesanan Sweetfy.

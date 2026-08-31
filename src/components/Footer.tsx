@@ -13,7 +13,7 @@ export default function Footer() {
               src={BRAND_DATA.logoUrl}
             />
             <p className="text-sm text-on-surface-variant max-w-xs leading-relaxed">
-              Crafting youthful, high-energy food and beverages for the student community. Fresh editorial aesthetics meet professional clarity.
+              Menyajikan makanan dan minuman manis nan segar untuk komunitas mahasiswa. Penuh keceriaan, rasa nikmat, dan kesegaran nyata.
             </p>
             <div className="flex gap-4 mt-2">
               <a
@@ -39,19 +39,19 @@ export default function Footer() {
 
           {/* Column 2: Quick Links */}
           <div className="flex flex-col gap-5">
-            <h3 className="font-display font-bold text-lg text-on-surface">Quick Links</h3>
+            <h3 className="font-display font-bold text-lg text-on-surface">Tautan Cepat</h3>
             <nav className="flex flex-col gap-3">
-              <a href="#home" className="text-sm text-on-surface-variant hover:text-primary transition-colors">Home</a>
-              <a href="#about" className="text-sm text-on-surface-variant hover:text-primary transition-colors">About Us</a>
-              <a href="#products" className="text-sm text-on-surface-variant hover:text-primary transition-colors">Products Menu</a>
-              <a href="#gallery" className="text-sm text-on-surface-variant hover:text-primary transition-colors">Gallery</a>
+              <a href="#home" className="text-sm text-on-surface-variant hover:text-primary transition-colors">Beranda</a>
+              <a href="#about" className="text-sm text-on-surface-variant hover:text-primary transition-colors">Tentang Kami</a>
+              <a href="#products" className="text-sm text-on-surface-variant hover:text-primary transition-colors">Menu Produk</a>
+              <a href="#gallery" className="text-sm text-on-surface-variant hover:text-primary transition-colors">Galeri</a>
               <a href="#faq" className="text-sm text-on-surface-variant hover:text-primary transition-colors">FAQ</a>
             </nav>
           </div>
 
           {/* Column 3: Contact Info */}
           <div className="flex flex-col gap-5">
-            <h3 className="font-display font-bold text-lg text-on-surface">Contact Info</h3>
+            <h3 className="font-display font-bold text-lg text-on-surface">Informasi Kontak</h3>
             <div className="flex flex-col gap-4 text-sm text-on-surface-variant">
               <div className="flex items-start gap-3">
                 <span className="material-symbols-outlined text-primary text-xl mt-0.5">location_on</span>
@@ -70,7 +70,7 @@ export default function Footer() {
 
           {/* Column 4: Operating Hours */}
           <div className="flex flex-col gap-5">
-            <h3 className="font-display font-bold text-lg text-on-surface">Operating Hours</h3>
+            <h3 className="font-display font-bold text-lg text-on-surface">Jam Operasional</h3>
             <div className="bg-surface-container-highest p-6 rounded-2xl border border-outline-variant/20 shadow-sm">
               <div className="flex justify-between items-center mb-2">
                 <span className="text-xs font-bold uppercase tracking-wider text-on-surface-variant">
@@ -81,7 +81,7 @@ export default function Footer() {
                 {BRAND_DATA.operatingHours}
               </div>
               <div className="text-xs text-on-surface-variant mt-1">
-                Open during campus bazaar events
+                Buka selama event bazar kampus
               </div>
             </div>
           </div>
@@ -89,8 +89,8 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-outline-variant/30 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-semibold text-on-surface-variant uppercase tracking-widest">
-          <span>© {new Date().getFullYear()} Sweetfy Brand. All Rights Reserved.</span>
-          <span>Made with Love for Students</span>
+          <span>© {new Date().getFullYear()} Sweetfy Brand. Hak Cipta Dilindungi.</span>
+          <span>Dibuat dengan Cinta untuk Mahasiswa</span>
         </div>
       </div>
     </footer>

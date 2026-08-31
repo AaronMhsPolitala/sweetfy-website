@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Sweetfy - Manisnya Momen, Segarnya Hari",
+  title: "Sweetfy - Pasti Ketagihan Dalam 1 Gigitan",
   description: "Es Kulkul dan Es Teh Sweetfy, teman manis dan segar untuk menemani setiap momen kamu. Brand makanan dan minuman favorit mahasiswa.",
   keywords: ["Sweetfy", "Es Kulkul", "Es Teh", "Es Teh Lychee", "Camilan Mahasiswa", "Bazar Kampus", "Pelaihari"],
   openGraph: {
-    title: "Sweetfy - Manisnya Momen, Segarnya Hari",
+    title: "Sweetfy - Pasti Ketagihan Dalam 1 Gigitan",
     description: "Es Kulkul dan Es Teh Sweetfy, teman manis dan segar untuk menemani setiap momen kamu.",
     url: "https://sweetfy.netlify.app",
     siteName: "Sweetfy",

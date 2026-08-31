@@ -8,8 +8,8 @@ export default function CTABanner() {
 
       <div className="max-w-3xl mx-auto relative z-10 flex flex-col items-center gap-8 py-12">
         <h2 className="text-3xl sm:text-5xl font-extrabold font-display leading-tight tracking-tight">
-          Craving Something <br />
-          <span className="text-primary italic">Sweet & Fresh?</span>
+          Pengen Yang <br />
+          <span className="text-primary italic">Manis & Segar?</span>
         </h2>
 
         <p className="text-lg text-on-primary-container/80 max-w-md font-normal leading-relaxed">

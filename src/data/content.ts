@@ -36,8 +36,8 @@ export interface GalleryItem {
 }
 
 export const BRAND_DATA = {
-  name: "Sweetify",
-  tagline: "Manisnya Momen, Segarnya Hari",
+  name: "Sweetfy",
+  tagline: "Pasti Ketagihan Dalam 1 Gigitan",
   subtagline: "Es Kulkul dan Es Teh Sweetfy, teman manis dan segar untuk menemani setiap momen kamu.",
   whatsappNumber: "6283119465702",
   whatsappUrl: "https://wa.me/6283119465702",
@@ -46,8 +46,8 @@ export const BRAND_DATA = {
   googleMapsUrl: "https://maps.app.goo.gl/CMNBQCSodQUNQahP6",
   email: "hello@sweetfy.com",
   phone: "+62 831-1946-5702",
-  operatingHours: "09:00 AM - 04:00 PM",
-  operatingDays: "Monday - Sunday",
+  operatingHours: "09:00 - 16:00 WITA",
+  operatingDays: "Senin - Minggu",
   logoUrl: "/images/logo.png",
 };
 
@@ -57,10 +57,10 @@ export const PRODUCTS: Product[] = [
     name: "Es Kulkul",
     price: "Rp5,000",
     numericPrice: 5000,
-    description: "Fresh fruits (melon & banana) coated with rich sweet chocolate shell. Plus your favorite toppings for free!",
+    description: "Buah segar (melon, semangka & anggur) dilapisi cokelat manis yang lezat. Plus topping favoritmu gratis!",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuA1p50a72lfa3Aj78QCmY2E9VPj00tpDTPssrrsaXE2jUUVhj3odb3-28U1zdYiPe25L0hRVJ3O0wKc9tzhnnlrWroRuuI7ho18KkUIjnmKkKBlBN7yiXN5TaArGYjV8RkIfkCuVK-ljCOEb_FvdeTelCXrWXV4J9oAT4gcXEGzPdW_p2RQt2mRd2LLJBtjtoh7B7y2ETkHBrMdXZkyD_HdP1MuytDMIo2guj6E-SdwJlnrSQGR_9z6UA",
-    alt: "Es Kulkul frozen fruit in rich dark chocolate with colorful sprinkles",
-    badge: "Bestseller",
+    alt: "Es Kulkul buah segar dilapisi cokelat lezat",
+    badge: "Terlaris",
     containerBg: "bg-secondary-container/30",
     category: "Es Kulkul",
   },
@@ -69,10 +69,10 @@ export const PRODUCTS: Product[] = [
     name: "Es Teh Original",
     price: "Rp3,000",
     numericPrice: 3000,
-    description: "Refreshing classic iced tea freshly brewed daily. Pilihan tepat untuk melepas dahaga di siang hari yang terik.",
+    description: "Teh manis dingin klasik yang menyegarkan, diseduh segar setiap hari. Pilihan tepat untuk melepas dahaga di siang hari yang terik.",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAJNhmVMbHZuGGz93GfAoU1DMzubSy9FxzmNJHz-qk1KmDxqp_NhtNwNziampVydcEtiXjVEixefUwwKEm00VA0JZscOQrUi80pkmJ343hArsaQvF6wwtD2_UES7qwRA3PcKiML0zgohZAGS7SKikVQLYQH9Mxp93Z1uTdUxNUNMqS7-Gh_qDCSHncmG4TjMt6cwdm0GgusTo8JG3GmvTOHjreWV9mgN428mFt-2xFEdV9rRLT863jXhA",
-    alt: "A tall frosty glass of classic iced tea with ice cubes",
-    badge: "Super Fresh",
+    alt: "Gelas Es Teh manis dingin klasik dengan es batu",
+    badge: "Super Segar",
     containerBg: "bg-tertiary-container/30",
     category: "Es Teh",
   },
@@ -81,43 +81,43 @@ export const PRODUCTS: Product[] = [
     name: "Es Teh Lychee",
     price: "Rp3,000",
     numericPrice: 3000,
-    description: "Refreshing iced tea infused with sweet lychee flavor. Manis, wangi, dan ekstra menyegarkan untuk mood booster kamu.",
+    description: "Es teh menyegarkan dengan paduan rasa leci yang manis. Manis, wangi, dan ekstra menyegarkan untuk mood booster kamu.",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDy8Mw-cYtVIWD8mArB33M5LPraP3lRpVnWnT6tBUoZjG9Lj-RXAvL0TyRYN7SH9zRimG0VprPvCKN1oJvKwJ67Ws-l51ADx35eraGv4u2mtys5g5jZ5nNnGmHObhcX0bvh4nfJfGDf7FQwJQW3DGXWO_iXAXaQslBo8vbrbE5-uZxedW9Jq1b8cp1NIPkpHCqmXLgwnW1MP9pHUsScWUbG_QRzRYnSjr4UsuruDOZuM29_L7nP4MOSFQ",
-    alt: "Vibrant glass of lychee iced tea with whole lychees",
-    badge: "Student Fav",
+    alt: "Gelas Es Teh rasa leci manis nan menyegarkan",
+    badge: "Favorit Mahasiswa",
     containerBg: "bg-primary-container/30",
     category: "Es Teh",
   },
 ];
 
 export const TOPPINGS = [
-  { name: "Meses Cokelat", tag: "Classic Sweet" },
-  { name: "Meses Warna-Warni", tag: "Fun & Playful" },
-  { name: "Kacang Sangrai", tag: "Nutty Crunch" },
+  { name: "Meses Cokelat", tag: "Manis Klasik" },
+  { name: "Meses Warna-Warni", tag: "Ceria & Seru" },
+  { name: "Kacang Sangrai", tag: "Renyah Gurih" },
 ];
 
 export const FEATURES = [
   {
     icon: "eco",
-    title: "Fresh Ingredients",
+    title: "Bahan Segar",
     description: "Buah segar dan teh seduhan terbaik pilihan setiap hari.",
     bgClass: "bg-tertiary-container/30 text-on-tertiary-container",
   },
   {
     icon: "payments",
-    title: "Student Friendly",
+    title: "Ramah Mahasiswa",
     description: "Mulai dari Rp3,000 aja. Ramah banget buat kantong mahasiswa!",
     bgClass: "bg-secondary-container/30 text-on-secondary-container",
   },
   {
     icon: "celebration",
-    title: "More Fun",
+    title: "Lebih Seru",
     description: "Bebas custom topping favorit sesuka hati untuk Es Kulkul-mu.",
     bgClass: "bg-primary-container/30 text-on-primary-container",
   },
   {
     icon: "wb_sunny",
-    title: "Perfect for Day",
+    title: "Pas Buat Hari Panas",
     description: "Solusi jitu ngademin hari yang panas setelah kelas atau aktivitas.",
     bgClass: "bg-surface-variant text-on-surface-variant",
   },
@@ -154,12 +154,12 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     id: "faq-1",
     question: "Bisa request buah untuk Es Kulkul?",
-    answer: "Saat ini kami menyediakan buah Melon dan Pisang segar sebagai varian utama karena teksturnya yang paling pas dipadukan dengan cokelat beku racikan khas Sweetfy.",
+    answer: "Saat ini kami menyediakan pilihan buah segar seperti melon, semangka, dan anggur yang dipadukan dengan cokelat beku racikan khas Sweetfy.",
   },
   {
     id: "faq-2",
     question: "Toppingnya bayar lagi gak?",
-    answer: "Tentu tidak! Harga Rp5,000 sudah termasuk pilihan topping gratis yang tersedia di booth/stall kami (selama persediaan masih ada).",
+    answer: "Tentu tidak! Harga Rp3,000 sudah termasuk pilihan topping gratis yang tersedia (selama persediaan masih ada).",
   },
   {
     id: "faq-3",
@@ -169,40 +169,40 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     id: "faq-4",
     question: "Apakah menerima pemesanan dalam jumlah banyak untuk acara?",
-    answer: "Bisa banget! Kami menerima pesanan besar untuk acara himpunan, seminar, ulang tahun, atau event kampus. Silakan konsultasi H-2 via WhatsApp.",
+    answer: "Bisa banget! Kami menerima pesanan besar untuk acara himpunan, seminar, ulang tahun, atau event kampus. Silakan konsultasi H-7 via WhatsApp.",
   },
 ];
 
 export const GALLERY: GalleryItem[] = [
   {
     id: "g1",
-    title: "Sweetfy Campus Bazaar Stand",
+    title: "Stand Bazar Kampus Sweetfy",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBIKp_RC4OwqOPYvmtWXEbcTIkeXWfAK0uq_iXB8D7FK0OZYmgfGW8NWMfLsH48IeJZhcfRUa3ASciR5X3ZSGZjoSqUhJjR7XrYSRSNH_mRZYNn0q1Dkz-OAfkp72ot3oNbor3Ra_mH9N8TppSNvhXK2zEoyLQ7QuewpjdTn7S6lAchLjsTQBAtlHWPa0nqKbtEH-yj3Krgm5rrpgVrwfwP4u38qy3oHAVyIMCNec3htqcNbITFagErNg",
-    alt: "Lively Sweetfy campus bazaar stall with students lining up",
+    alt: "Suasana stand bazar kampus Sweetfy yang ramai pengunjung",
     colSpan: "col-span-2",
     rowSpan: "row-span-2",
   },
   {
     id: "g2",
-    title: "Crunchy Es Kulkul Bite",
+    title: "Gigitan Renyah Es Kulkul",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuC54Ta8ZGB0bOkDMDwHeNC2vBqLmnvYl8pjmtxMPnI7-ktgVfShEf4na32p6GR-P4H1br3ewsEiWs10R5onYrBoT716k7nYQWqmkVFHAQ3FnwlXQv3ez3s0da9BsmG3n1jPlOsqldpqFGR2fcZkXjsKY5ZjHpiVVRMg7p_BfAUSRPskt-zcL1d7U4A4cBF2hhDXX8sUNC9vfUfC47-vyrhYGOLMeWzDTkHy2IL3HzJab_D0TdUsXg1jYQ",
-    alt: "Close up of Es Kulkul with juicy melon and chocolate shell",
+    alt: "Es Kulkul buah segar dengan lapisan cokelat beku",
     colSpan: "col-span-2 md:col-span-1",
     rowSpan: "row-span-1",
   },
   {
     id: "g3",
-    title: "Es Teh Toast",
+    title: "Kesegaran Es Teh Sweetfy",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAn8CaB94hDqnuoghGDhKZuXwPw61IdhR0HxsFabkUBc0slCDXintNYQfZupleZU3o-_xHxAtXAtz9VjNfYYkCYYvtBEomZa00cu9cMDv8oQg2_8-0ol7Zsod7XaHXjaxzRGcUb7XdtjEDa-6XzaquOqivPbNA2dhEQMVx2YjqM5NDAQSvaTv1Gn8KB3fonI7Z0RgXw_wY4t-ajkQExT4cdft0N3mflb0l3NjNV9sRbl6caHungXB1yfw",
-    alt: "Two plastic cups of Es Teh clinking together outdoors",
+    alt: "Dua cup Es Teh segar Sweetfy",
     colSpan: "col-span-1",
     rowSpan: "row-span-1",
   },
   {
     id: "g4",
-    title: "Fresh Ingredients Prep",
+    title: "Persiapan Bahan Segar",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDFm0LJb426EBfTjjzaNSEefv8yTQD-vtnok1qcotfJguJxTIjOO6KNRcNJKcNzFOTDY75fiXnlU9Is6DHa-yjS8c8wIvHK4SZXnnBA6RaRMfY6XiaXZcXQRQ5UscA0y_S41ON8X-NVqNU0fSfm8F7fGB9RiQJ3loKA_vZmykvXBm8a5XcTD649ta_t59k7xFNF92h6ofxr8c6VMCyUXEyoVPrpC8ydNhBi20FIaF6i8Mijh-jOfEO3QA",
-    alt: "Flatlay of melon, bananas, chocolate bars, and sprinkles",
+    alt: "Bahan-bahan segar Es Kulkul dan Es Teh",
     colSpan: "col-span-1 md:col-span-2",
     rowSpan: "row-span-1",
   },

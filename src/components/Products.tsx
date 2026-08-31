@@ -4,10 +4,10 @@ import { useState } from "react";
 import { PRODUCTS, BRAND_DATA, Product } from "@/data/content";
 
 export default function Products() {
-  const [selectedCategory, setSelectedCategory] = useState<string>("All");
+  const [selectedCategory, setSelectedCategory] = useState<string>("Semua");
 
   const filteredProducts =
-    selectedCategory === "All"
+    selectedCategory === "Semua"
       ? PRODUCTS
       : PRODUCTS.filter((p) => p.category === selectedCategory);
 
@@ -25,7 +25,7 @@ export default function Products() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-6">
           <div className="flex flex-col gap-3">
             <span className="text-xs font-bold text-primary bg-primary-container/30 px-4 py-2 rounded-full self-start tracking-wider uppercase">
-              OUR MENU
+              MENU KAMI
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold font-display text-on-surface">
               Favorit Manis & Segar
@@ -34,7 +34,7 @@ export default function Products() {
           
           {/* Category Filter Buttons */}
           <div className="flex items-center gap-2 bg-surface p-1.5 rounded-full border border-outline-variant/30 shadow-sm">
-            {["All", "Es Kulkul", "Es Teh"].map((cat) => (
+            {["Semua", "Es Kulkul", "Es Teh"].map((cat) => (
               <button
                 key={cat}
                 onClick={() => setSelectedCategory(cat)}
@@ -91,7 +91,7 @@ export default function Products() {
                   onClick={() => handleOrder(product)}
                   className="w-full bg-surface-container text-on-surface py-3.5 rounded-full text-center font-display font-semibold text-sm hover:bg-primary hover:text-on-primary transition-all duration-300 flex items-center justify-center gap-2 group/btn shadow-sm"
                 >
-                  <span>Order via WhatsApp</span>
+                  <span>Pesan via WhatsApp</span>
                   <span className="material-symbols-outlined text-[18px] group-hover/btn:translate-x-1 transition-transform">
                     send
                   </span>

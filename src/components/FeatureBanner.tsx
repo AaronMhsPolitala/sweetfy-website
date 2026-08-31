@@ -11,7 +11,7 @@ export default function FeatureBanner() {
         <div className="flex flex-col gap-8">
           <h2 className="text-3xl sm:text-5xl font-extrabold font-display leading-[1.15]">
             Es Kulkul, <br />
-            <span className="text-primary-fixed italic font-normal">But Make It More Fun.</span>
+            <span className="text-primary-fixed italic font-normal">Bikin Lebih Seru!</span>
           </h2>
 
           <p className="text-lg text-primary-fixed-dim max-w-md leading-relaxed font-normal">
@@ -20,7 +20,7 @@ export default function FeatureBanner() {
 
           <div className="flex flex-col gap-4 mt-2">
             <h3 className="text-xs font-bold text-primary-fixed uppercase tracking-widest">
-              Add Some Sweetness (Free Toppings)
+              Tambah Kelezatan (Topping Gratis)
             </h3>
             
             <div className="flex flex-wrap gap-3">

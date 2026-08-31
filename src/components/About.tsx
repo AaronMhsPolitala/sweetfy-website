@@ -16,11 +16,11 @@ export default function About() {
           {/* Story Text */}
           <div className="order-1 md:order-2 flex flex-col gap-6">
             <span className="text-xs font-bold text-tertiary bg-tertiary-container/30 px-4 py-2 rounded-full self-start tracking-wider uppercase">
-              ABOUT SWEETFY
+              TENTANG SWEETFY
             </span>
 
             <h2 className="text-3xl sm:text-4xl font-bold font-display text-on-surface leading-tight">
-              Simple Treats, Made Sweeter.
+              Sajian Sederhana, Terasa Lebih Manis.
             </h2>
 
             <p className="text-lg text-on-surface-variant leading-relaxed">
@@ -40,7 +40,7 @@ export default function About() {
                 </div>
               </div>
               <p className="text-base text-on-surface-variant font-semibold">
-                Loved by 500+ students
+                Disukai 500+ mahasiswa
               </p>
             </div>
           </div>

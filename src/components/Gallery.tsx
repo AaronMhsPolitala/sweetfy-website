@@ -12,10 +12,10 @@ export default function Gallery() {
         <div className="flex justify-between items-end mb-12">
           <div>
             <span className="text-xs font-bold text-secondary bg-secondary-container/30 px-4 py-2 rounded-full inline-block mb-3 uppercase tracking-wider">
-              GALLERY
+              GALERI
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold font-display text-on-surface">
-              Sweet Moments
+              Momen Manis
             </h2>
           </div>
 
@@ -23,7 +23,7 @@ export default function Gallery() {
             href="#contact"
             className="hidden md:flex items-center gap-2 text-primary font-bold hover:underline transition-all"
           >
-            <span>Tag Us on Instagram</span>
+            <span>Tag Kami di Instagram</span>
             <span className="material-symbols-outlined text-sm">arrow_forward</span>
           </a>
         </div>
@@ -81,7 +81,7 @@ export default function Gallery() {
                 <p className="text-sm text-on-surface-variant">{selectedImage.alt}</p>
               </div>
               <span className="text-xs text-primary font-bold bg-primary-container/30 px-3 py-1.5 rounded-full uppercase">
-                Sweetfy Moment
+                Momen Sweetfy
               </span>
             </div>
           </div>

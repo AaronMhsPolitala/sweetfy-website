@@ -4,14 +4,14 @@ import { useState, useEffect } from "react";
 import { BRAND_DATA } from "@/data/content";
 
 const NAV_LINKS = [
-  { label: "Home", href: "#home" },
-  { label: "About Us", href: "#about" },
-  { label: "Products", href: "#products" },
-  { label: "Why Sweetfy", href: "#why-sweetfy" },
-  { label: "Gallery", href: "#gallery" },
-  { label: "Testimonials", href: "#testimonials" },
+  { label: "Beranda", href: "#home" },
+  { label: "Tentang Kami", href: "#about" },
+  { label: "Produk", href: "#products" },
+  { label: "Keunggulan", href: "#why-sweetfy" },
+  { label: "Galeri", href: "#gallery" },
+  { label: "Testimoni", href: "#testimonials" },
   { label: "FAQ", href: "#faq" },
-  { label: "Contact", href: "#contact" },
+  { label: "Kontak", href: "#contact" },
 ];
 
 export default function Header() {

@@ -7,11 +7,11 @@ export default function Location() {
         {/* Contact & Location Details */}
         <div className="flex flex-col gap-6">
           <span className="text-xs font-bold text-tertiary bg-tertiary-container/30 px-4 py-2 rounded-full self-start uppercase tracking-wider">
-            LOCATION & CONTACT
+            LOKASI & KONTAK
           </span>
 
           <h2 className="text-3xl sm:text-4xl font-bold font-display text-on-surface">
-            Find Us Here.
+            Temukan Kami Di Sini.
           </h2>
 
           <div className="flex items-start gap-4 p-5 bg-surface-container rounded-2xl border border-outline-variant/20 shadow-sm">
@@ -35,7 +35,7 @@ export default function Location() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span>Open in Google Maps</span>
+              <span>Buka di Google Maps</span>
               <span className="material-symbols-outlined text-[18px]">open_in_new</span>
             </a>
 
@@ -45,7 +45,7 @@ export default function Location() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span>Contact via WhatsApp</span>
+              <span>Hubungi via WhatsApp</span>
               <span className="material-symbols-outlined text-[18px]">chat</span>
             </a>
           </div>
@@ -71,7 +71,7 @@ export default function Location() {
             rel="noopener noreferrer"
             className="bg-surface text-primary border border-primary/30 px-5 py-2.5 rounded-full text-xs font-bold font-display hover:bg-primary hover:text-on-primary transition-all shadow-sm"
           >
-            View Live Map Location
+            Lihat Peta Lokasi
           </a>
         </div>
       </div>
