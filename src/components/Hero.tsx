@@ -51,7 +51,7 @@ export default function Hero() {
         {/* Right Column Showcase */}
         <div className="lg:col-span-7 relative">
           <div className="absolute -inset-4 bg-tertiary-container/30 rounded-full blur-[60px] -z-10 mix-blend-multiply"></div>
-          
+
           <div className="relative w-full h-[450px] sm:h-[600px] rounded-[40px] overflow-hidden shadow-2xl shadow-primary/10 transform -rotate-2 hover:rotate-0 transition-transform duration-700 ease-out border-4 border-surface">
             <img
               className="w-full h-full object-cover"

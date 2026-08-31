@@ -56,11 +56,11 @@ export default function Location() {
           <div className="w-16 h-16 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
             <span className="material-symbols-outlined text-3xl">map</span>
           </div>
-          
+
           <h3 className="font-display font-bold text-xl text-on-surface mb-2">
             Pelaihari, Kalimantan Selatan
           </h3>
-          
+
           <p className="text-sm text-on-surface-variant max-w-xs mb-6">
             Kunjungi booth Sweetfy saat event bazar kampus di area Pelaihari!
           </p>

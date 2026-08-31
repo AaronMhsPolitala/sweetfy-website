@@ -36,15 +36,15 @@ export interface GalleryItem {
 }
 
 export const BRAND_DATA = {
-  name: "Sweetfy",
+  name: "Sweetify",
   tagline: "Pasti Ketagihan Dalam 1 Gigitan",
-  subtagline: "Es Kulkul dan Es Teh Sweetfy, teman manis dan segar untuk menemani setiap momen kamu.",
+  subtagline: "Es Kulkul dan Es Teh Sweetify, teman manis dan segar untuk menemani setiap momen kamu.",
   whatsappNumber: "6283119465702",
   whatsappUrl: "https://wa.me/6283119465702",
-  locationName: "Sweetfy Base",
+  locationName: "Sweetify Base",
   locationAddress: "Jl. Ahmad Yani Km. 06, Pelaihari, Kabupaten Tanah Laut, Kalimantan Selatan",
   googleMapsUrl: "https://maps.app.goo.gl/CMNBQCSodQUNQahP6",
-  email: "hello@sweetfy.com",
+  email: "hello@sweetify.com",
   phone: "+62 831-1946-5702",
   operatingHours: "09:00 - 16:00 WITA",
   operatingDays: "Senin - Minggu",
@@ -154,7 +154,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     id: "faq-1",
     question: "Bisa request buah untuk Es Kulkul?",
-    answer: "Saat ini kami menyediakan pilihan buah segar seperti melon, semangka, dan anggur yang dipadukan dengan cokelat beku racikan khas Sweetfy.",
+    answer: "Saat ini kami menyediakan pilihan buah segar seperti melon, semangka, dan anggur yang dipadukan dengan cokelat beku racikan khas Sweetify.",
   },
   {
     id: "faq-2",
@@ -176,9 +176,9 @@ export const FAQ_ITEMS: FAQItem[] = [
 export const GALLERY: GalleryItem[] = [
   {
     id: "g1",
-    title: "Stand Bazar Kampus Sweetfy",
+    title: "Stand Bazar Kampus Sweetify",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBIKp_RC4OwqOPYvmtWXEbcTIkeXWfAK0uq_iXB8D7FK0OZYmgfGW8NWMfLsH48IeJZhcfRUa3ASciR5X3ZSGZjoSqUhJjR7XrYSRSNH_mRZYNn0q1Dkz-OAfkp72ot3oNbor3Ra_mH9N8TppSNvhXK2zEoyLQ7QuewpjdTn7S6lAchLjsTQBAtlHWPa0nqKbtEH-yj3Krgm5rrpgVrwfwP4u38qy3oHAVyIMCNec3htqcNbITFagErNg",
-    alt: "Suasana stand bazar kampus Sweetfy yang ramai pengunjung",
+    alt: "Suasana stand bazar kampus Sweetify yang ramai pengunjung",
     colSpan: "col-span-2",
     rowSpan: "row-span-2",
   },
@@ -192,9 +192,9 @@ export const GALLERY: GalleryItem[] = [
   },
   {
     id: "g3",
-    title: "Kesegaran Es Teh Sweetfy",
+    title: "Kesegaran Es Teh Sweetify",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAn8CaB94hDqnuoghGDhKZuXwPw61IdhR0HxsFabkUBc0slCDXintNYQfZupleZU3o-_xHxAtXAtz9VjNfYYkCYYvtBEomZa00cu9cMDv8oQg2_8-0ol7Zsod7XaHXjaxzRGcUb7XdtjEDa-6XzaquOqivPbNA2dhEQMVx2YjqM5NDAQSvaTv1Gn8KB3fonI7Z0RgXw_wY4t-ajkQExT4cdft0N3mflb0l3NjNV9sRbl6caHungXB1yfw",
-    alt: "Dua cup Es Teh segar Sweetfy",
+    alt: "Dua cup Es Teh segar Sweetify",
     colSpan: "col-span-1",
     rowSpan: "row-span-1",
   },

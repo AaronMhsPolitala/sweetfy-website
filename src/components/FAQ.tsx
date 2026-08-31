@@ -41,9 +41,8 @@ export default function FAQ() {
                 >
                   <span>{item.question}</span>
                   <span
-                    className={`material-symbols-outlined transition-transform duration-300 text-primary ${
-                      isOpen ? "rotate-180" : ""
-                    }`}
+                    className={`material-symbols-outlined transition-transform duration-300 text-primary ${isOpen ? "rotate-180" : ""
+                      }`}
                   >
                     expand_more
                   </span>

@@ -8,8 +8,8 @@ export default function Footer() {
           {/* Column 1: Brand Info */}
           <div className="flex flex-col gap-4">
             <img
-              alt="Sweetfy Primary Logo"
-              className="h-10 w-auto self-start"
+              alt="Sweetify Primary Logo"
+              className="h-12 sm:h-14 w-auto self-start object-contain"
               src={BRAND_DATA.logoUrl}
             />
             <p className="text-sm text-on-surface-variant max-w-xs leading-relaxed">

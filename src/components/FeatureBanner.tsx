@@ -22,7 +22,7 @@ export default function FeatureBanner() {
             <h3 className="text-xs font-bold text-primary-fixed uppercase tracking-widest">
               Tambah Kelezatan (Topping Gratis)
             </h3>
-            
+
             <div className="flex flex-wrap gap-3">
               {TOPPINGS.map((topping) => (
                 <div
@@ -44,7 +44,7 @@ export default function FeatureBanner() {
         {/* Right Column Macro Imagery */}
         <div className="relative">
           <div className="absolute inset-0 bg-primary-fixed/20 rounded-full blur-[80px] -z-10"></div>
-          
+
           <div className="grid grid-cols-2 gap-4">
             <div className="h-56 md:h-64 rounded-3xl overflow-hidden mt-8 shadow-2xl border-2 border-white/20 group">
               <img

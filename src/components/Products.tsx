@@ -31,18 +31,17 @@ export default function Products() {
               Favorit Manis & Segar
             </h2>
           </div>
-          
+
           {/* Category Filter Buttons */}
           <div className="flex items-center gap-2 bg-surface p-1.5 rounded-full border border-outline-variant/30 shadow-sm">
             {["Semua", "Es Kulkul", "Es Teh"].map((cat) => (
               <button
                 key={cat}
                 onClick={() => setSelectedCategory(cat)}
-                className={`px-5 py-2 rounded-full text-xs font-bold transition-all ${
-                  selectedCategory === cat
+                className={`px-5 py-2 rounded-full text-xs font-bold transition-all ${selectedCategory === cat
                     ? "bg-primary text-on-primary shadow-sm"
                     : "text-on-surface-variant hover:text-primary hover:bg-surface-container"
-                }`}
+                  }`}
               >
                 {cat}
               </button>
