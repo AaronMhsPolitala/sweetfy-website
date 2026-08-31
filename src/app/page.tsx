@@ -5,7 +5,6 @@ import Products from "@/components/Products";
 import FeatureBanner from "@/components/FeatureBanner";
 import WhySweetfy from "@/components/WhySweetfy";
 import Gallery from "@/components/Gallery";
-import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import Location from "@/components/Location";
 import CTABanner from "@/components/CTABanner";
@@ -23,7 +22,6 @@ export default function Home() {
         <FeatureBanner />
         <WhySweetfy />
         <Gallery />
-        <Testimonials />
         <FAQ />
         <Location />
         <CTABanner />
