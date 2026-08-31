@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col bg-surface font-body text-on-surface">
       <Header />
-      <div className="pt-20">
+      <div className="pt-24 sm:pt-28">
         <Hero />
         <About />
         <Products />

@@ -46,12 +46,12 @@ export default function Header() {
         : "bg-surface/70 backdrop-blur-sm"
         }`}
     >
-      <div className="h-20 max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop flex items-center justify-between gap-gutter">
+      <div className="h-24 sm:h-28 max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop flex items-center justify-between gap-gutter">
         {/* Logo & Brand */}
-        <a href="#home" className="flex items-center group">
+        <a href="#home" className="flex items-center group py-2">
           <img
             alt="Sweetify Primary Logo"
-            className="h-12 sm:h-14 w-auto object-contain transition-transform group-hover:scale-105"
+            className="h-16 sm:h-20 md:h-24 w-auto object-contain transition-transform group-hover:scale-105"
             src={BRAND_DATA.logoUrl}
           />
         </a>
@@ -92,7 +92,7 @@ export default function Header() {
 
       {/* Mobile Drawer Menu */}
       {isMobileMenuOpen && (
-        <div className="lg:hidden fixed inset-x-0 top-20 bg-surface/95 backdrop-blur-xl border-b border-outline-variant/30 shadow-2xl py-6 px-margin-mobile flex flex-col gap-4 animate-in slide-in-from-top duration-300">
+        <div className="lg:hidden fixed inset-x-0 top-24 sm:top-28 bg-surface/95 backdrop-blur-xl border-b border-outline-variant/30 shadow-2xl py-6 px-margin-mobile flex flex-col gap-4 animate-in slide-in-from-top duration-300">
           {NAV_LINKS.map((link) => (
             <a
               key={link.href}
