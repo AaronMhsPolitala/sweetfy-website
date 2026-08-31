@@ -9,7 +9,6 @@ const NAV_LINKS = [
   { label: "Produk", href: "#products" },
   { label: "Keunggulan", href: "#why-sweetfy" },
   { label: "Galeri", href: "#gallery" },
-  { label: "Testimoni", href: "#testimonials" },
   { label: "FAQ", href: "#faq" },
   { label: "Kontak", href: "#contact" },
 ];
